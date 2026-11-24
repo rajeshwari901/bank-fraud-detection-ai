@@ -1,0 +1,24 @@
+BANK FRAUD DETECTION - MODEL EVALUATION
+=============================================
+Dataset size: 5000
+Test records: 1000
+Accuracy: 91.50%
+Precision: 40.00%
+Recall: 2.38%
+F1-score: 4.49%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     Genuine       0.92      1.00      0.96       916
+       Fraud       0.40      0.02      0.04        84
+
+    accuracy                           0.92      1000
+   macro avg       0.66      0.51      0.50      1000
+weighted avg       0.87      0.92      0.88      1000
+
+Confusion Matrix:
+[[913   3]
+ [ 82   2]]
+
+Note: Results are based on synthetic demonstration data and do not establish real-world fraud detection performance.
